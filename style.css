@@ -1,0 +1,68 @@
+.input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #f97316;
+}
+
+
+.table-box {
+  background: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+
+.table-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+
+.order-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 80px;
+
+  align-items: center;
+
+  padding: 12px 0;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+
+.order-row:last-child {
+  border-bottom: none;
+}
+
+
+.order-price {
+  color: #f97316;
+  font-weight: 600;
+}
+
+
+.delete-button {
+  color: #ef4444;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+
+.delete-button:hover {
+  color: #b91c1c;
+}
+
+
+.no-orders {
+  color: #9ca3af;
+  padding: 10px 0;
+}
